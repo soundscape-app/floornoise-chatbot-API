@@ -3,4 +3,6 @@ fuctions.py
 lindex_pre.py
 newver.py
 temp.py
+canvas.py
+.gitignore
 *.wav
