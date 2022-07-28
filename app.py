@@ -230,8 +230,7 @@ def update_lindex(filename):
         np.max(spl250).item(),
         np.max(spl500).item()
     ]
-    
-    print(band_lamax)
+
     
     l_index = 85
     t63 = tuple(range(110, 54, -5))
@@ -310,9 +309,9 @@ def analysis():
     return analysis_sentence(user_noise_level, user_l_index)
     
 
-@app.route('/brief-analysis')
-def brief():
-    return
+# @app.route('/brief-analysis')
+# def brief():
+#     return
  
 if __name__ == "__main__":
     app.run()
